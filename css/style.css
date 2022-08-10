@@ -1,0 +1,349 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.home-body{
+    background-image: url(../ASSETS/img/fondo_suculenta.avif);
+    position: fixed; 
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+a{
+    text-decoration:none;
+    display: inline; 
+    color: black;
+}
+header{
+    width: 100%; 
+}
+header .header-icons-container{
+    width: 100%;
+    height: 60px; 
+    
+}
+.home-main{
+    display: grid;   
+    grid-template-columns: 1fr 4fr 1fr;
+    width:100%;
+ }
+.header-icons-container .icons{
+    width: 100px; 
+    height: auto; 
+    display: flex; 
+    justify-items: flex-end;
+    align-items:center; 
+    justify-content:space-between;
+    justify-self:end;
+    margin-right: 35px;
+}
+header .icons span{
+    color:rgb(240, 255, 248);
+    font-size: 1.7rem;
+}
+.icons a{
+    margin-right: 15px;
+}
+nav{
+    background-color:rgb(13, 98, 88);
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    height:60px;
+}
+.nav-logo-container{
+    margin-left: 90px;
+    display: flex;
+    align-items: center;
+    justify-items: flex-start;
+}
+.nav-logo-container a{
+    color:rgb(245, 255, 252);
+    font-size: 2rem;
+    font-family: 'Patua One', cursive;
+
+}
+.profile-link{
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+    margin-right:90px;
+}
+.profile-link a{
+    color:rgb(240, 255, 248);
+    font-family: 'Concert One', cursive;
+    text-transform: uppercase;
+}
+.title-container{
+    margin: 90px 90px;
+    display:grid;
+    grid-column: 2;
+    justify-items: center;
+
+}
+.title h1{
+    font-size: 2.8rem;
+    font-family: 'Patua One', cursive;
+    border-radius: .5rem;
+    text-align: center;
+    text-shadow: rgba(10, 54, 35, 0.551) 0.1rem 0.1rem 0.1rem;
+    letter-spacing: 8px;
+    color:rgb(246, 255, 252);
+    padding: 1rem 0;
+    
+}
+.button{
+    text-align: center;
+    font-family: 'Concert One', cursive;
+}
+.button a{
+    padding: .5rem 1.7rem; 
+    border-radius: 1rem; 
+    background-color: rgb(13, 98, 88);
+    color:rgb(240, 255, 248);
+    font-size: 1.8rem; 
+    cursor:pointer;
+}
+.blogs-main{
+    display:grid;
+}
+.blogs-news-container{
+    background-color:rgb(209, 209, 209);
+    padding: 0 90px 50px;
+}
+.blogs-main-new{
+    color: rgb(13, 98, 88);
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr;
+}
+.blogs-main-new h3{
+    font-size: 25px;
+    font-family: 'Patua One', cursive;
+}
+.blogs-news-img-container{
+    grid-column: 1;
+}
+.blogs-news-img-container img{
+    width:60%;
+    border: 50px solid white;
+    
+}
+.blogs-news-info-container{
+    font-size: 25px;
+    font-family: 'Concert One', cursive;
+    color: rgb(13, 98, 88);
+    grid-column: 2;
+}
+.blogs-news-info-container p{
+    margin-bottom:35px;
+}
+.blogs-button{
+padding: .5rem 1.7rem; 
+border-radius: 0.8rem; 
+background-color: rgb(13, 98, 88);
+color:rgb(240, 255, 248);
+font-size: 1.2rem; 
+cursor:pointer;
+font-family: 'Concert One', cursive;
+}
+.blogs-posts-container{
+    padding: 0 90px 50px;
+    background-color:rgb(209, 209, 209);
+}
+.blogs-posts-container h3 {
+    font-size: 25px;
+    font-family: 'Patua One', cursive;
+    color:rgb(13, 98, 88);
+    border-bottom: 1px solid rgb(11, 89, 68);
+    text-align: center;
+}
+.post-container{
+    display: inline-block;
+    padding: 0 20px 20px;
+    max-width: 30%;
+    margin-bottom: 50px;
+}
+.post-container p{
+    font-family: 'Concert One', cursive;
+    color:rgb(13, 98, 88);
+    text-align: left;
+    margin-bottom:35px;
+}
+.post-container img {
+    width: 100%
+}
+footer{
+    width: 100%;
+    height: 80px;
+    background-color:rgb(65, 5, 75);
+    border-top: 35px solid white;
+    text-align:center;
+}
+footer p{
+    margin-top: 30px; 
+    color:rgb(246, 255, 252);
+    font-family: 'Patua One', cursive;
+}
+.blogpost-img-container{
+    background-color:rgb(209, 209, 209);
+    padding: 40px 90px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blogpost-img-container img{
+    width: 50%;
+    border: 20px solid white;
+}
+.blogpost-main-container{
+    padding: 0 90px 40px; 
+}
+.blogpost-main-container h3{
+    border-bottom: 1px solid gray;
+}
+.grid h3{
+    font-family: 'Patua One', cursive;
+    color:rgb(13, 98, 88);
+}
+.grid h1{
+    font-size: 35px;
+    font-family: 'Patua One', cursive; 
+    color:rgb(13, 98, 88);   
+}
+.grid p{
+    font-family: 'Concert One', cursive;
+    color:rgb(13, 98, 88);
+}
+.contact-main-container {
+    display:grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    justify-items: center;
+}
+.contact-left {
+    font-family: 'Concert One', cursive;
+    font-size: 1.2rem;
+    grid-column: 2;
+}
+.contact-left a {
+    color:rgb(13, 98, 88);
+}
+.contact-right {
+    align-self: center;
+    color:rgb(13, 98, 88);
+    font-family: 'Concert One', cursive;
+    font-size: 1.2rem;
+    grid-column: 3;
+}
+.contact-right a{
+    color:rgb(13, 98, 88);
+}
+.profile-info{
+    background-color: aliceblue;
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 2fr;
+    padding: 40px 80px 40px;
+}
+.profile-info img{
+    width: 80%;
+    border: 30px solid white;
+}
+.profile-info-text{
+    padding: 50px;
+    align-self: center;
+}
+.profile-info-text h3{
+    font-size: 2rem;
+    font-family: 'Patua One', cursive;
+    color:rgb(13, 98, 88)
+}
+.profile-info-text p{
+    font-size: 1.2rem;
+    font-family: 'Concert One', cursive;
+    color:rgb(13, 98, 88);
+}
+.projects-container{
+    padding: 0px 80px 80px;
+    display:grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+}
+.projects-title{
+    border-bottom: 1px solid gray;
+    grid-area: 1/1/2/4;
+    font-size: 2rem;
+    font-family: 'Patua One', cursive;
+    color:rgb(13, 98, 88);
+    text-align: center;
+    align-self: center;
+}
+.projects-info-1{
+    grid-column: 1;
+    background-color: aliceblue;
+    border-radius: 12px;
+    font-family: 'Concert One', cursive;
+    color:rgb(13, 98, 88);
+}
+.projects-info-1 p{
+    padding: 20px;
+}
+.projects-info-2{
+    background-color: aliceblue;
+    border-radius: 12px;
+    grid-column: 2;
+    font-family: 'Concert One', cursive;
+    color:rgb(13, 98, 88);
+}
+.projects-info-2 p{
+    padding: 20px;
+}
+.projects-info-3{
+    grid-column: 3;
+    background-color: aliceblue;
+    border-radius: 12px;
+    font-family: 'Concert One', cursive;
+    color:rgb(13, 98, 88);
+}
+.projects-info-3 p{
+    padding: 20px;
+}
+.projects-container h5{
+    text-align: center;
+    font-size: 1.7rem;
+    font-family: 'Patua One', cursive;
+    color:rgb(13, 98, 88);
+}
+
+
+
+
+
+
+
+
+
+/*media queries*/
+@media(max-width: 1200px){
+    html{
+        font-size: 55%;
+
+
+}
+@media(max-width: 991px){
+    
+
+}
+@media(max-width: 768px){
+}
+@media(max-width: 450px){
+  
+    .title h1{
+        text-align: left;
+        font-size: 2.9rem;
+    }
+    .button{
+        text-align: left;
+    }
+}
